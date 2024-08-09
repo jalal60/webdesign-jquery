@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('.image-popup').magnificPopup({
+        type:'image',
+        gallery:{
+            enabled:true
+          }
+    });
+    $('.video-popup').magnificPopup({
+        type:'iframe',
+        gallery:{
+            enabled:true
+          }
+    });
+});
