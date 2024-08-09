@@ -1,0 +1,25 @@
+/*------About CSS---------*/
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*! margin-bottom: 60px; */
+    text-align: center;
+    .single-about {
+        flex-basis: 32%;
+        border: 1px solid $gray_color;
+        padding: 40px 20px;
+        h4 {
+            font-size: 24px;
+            text-transform: capitalize;
+          }
+          p {
+            margin: 20px 0;
+          }
+          a {
+            color: $black_color;
+          }
+      }
+  }
+  

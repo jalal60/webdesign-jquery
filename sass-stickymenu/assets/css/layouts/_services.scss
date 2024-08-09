@@ -1,0 +1,48 @@
+/*----------Services CSS---------*/
+.service-area{
+    background-color: $gray_color;
+}
+
+
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    .single-service {
+        flex-basis: 32%;
+        background: #fff;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 40px 20px;
+        border: 2px solid $gray_color;
+        transition: .3s;
+        h4 {
+            font-size: 22px;
+            text-transform: capitalize;
+            margin: 20px 0;
+        }
+        i {
+            font-size: 25px;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ddd;
+            line-height: 50px;
+            border-radius: 50%;
+            transition: .3s;
+        }
+        &:hover{
+            border-color: $primary_color;
+        }
+        &:hover i{
+            color: $white_color;
+            background: $primary_color;
+        }
+        
+
+      }
+      
+      
+  }
+  

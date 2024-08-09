@@ -1,0 +1,63 @@
+/*---------Contact CSS---------*/
+
+.contact-area{
+    background-color:$gray_color;
+}
+
+.contact-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    .single-contact {
+        text-align: center;
+        i {
+            font-size: 30px;
+            margin-bottom: 10px;
+          }
+        h4 {
+          font-size: 20px;
+          span {
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+  }
+  
+
+
+  
+.contact-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .contact-form {
+        flex-basis: 55%;
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+          }
+          textarea {
+            width: 100%;
+            height: 109px;
+            margin-bottom: 15px;
+          }
+          input[type="submit"] {
+            cursor: pointer;
+            text-transform: uppercase;
+            border: none;
+          }
+      }
+      .contact-map {
+        flex-basis: 40%;
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 2px solid #ddd;
+          }
+      }
+  }
+

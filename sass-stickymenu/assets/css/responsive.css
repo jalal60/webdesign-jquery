@@ -1,0 +1,103 @@
+/*--------Medium Layout Entry Level=1000px------*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .main {
+        width: 950px;
+      }
+      
+}  
+
+/*-----Tablet Layout Entry Level=800px -------------*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    .main{
+        width: 750px;
+    }
+    .header .logo a {
+        font-size: 22px;
+       
+    }
+}
+
+/*-------Mobile Layout Entry Level=400px----------*/
+@media only screen and (max-width:767px){
+    .main{
+        width: 300px;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    .header .logo{
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header .logo a {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .header .menu {
+        flex-basis: 100%;
+    }
+    .header .menu ul {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .banner-content h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .banner-content a {
+        margin: 20px 0;
+        display: block;
+    }
+    .about .single-about {
+        flex-basis: 100%;
+        padding: 30px 10px;
+        margin-bottom: 10px;
+    }
+    .services .single-service {
+        flex-basis: 100%;
+        
+    }
+    .section-title h2 {
+        line-height: 40px;
+    }
+    .portfolio .single-portfolio {
+        flex-basis: 100%;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .cta-content h2 {
+        font-size: 30px;
+      
+    }
+    .blog .single-blog {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-top .single-contact {
+        text-align: center;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-bottom .contact-form {
+        flex-basis: 100%;
+    }
+    .contact-bottom .contact-map {
+        flex-basis: 100%;
+    }
+}
+
+/*-------Wide Mobile Layout Entry Level=600px----------*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .main{
+        width: 450px;
+    }
+}

@@ -1,0 +1,40 @@
+/*-------Blog CSS---------*/
+
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .single-blog {
+        flex-basis: 32%;
+        /*! margin-bottom: ; */
+        overflow: hidden;
+  
+      .blog-img 
+      {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+      }
+      .blog-content {
+        padding: 20px;
+        background: $gray_color;
+        h4 {
+            font-size: 20px;
+            text-transform: capitalize;
+            margin: 10px 0;
+          }
+          p {
+            margin-bottom: 10px;
+          }
+      }
+    }
+  }
+
+
+

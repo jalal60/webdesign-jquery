@@ -1,0 +1,52 @@
+/*-------Header CSS--------*/
+
+.header-area {
+  padding: 30px;
+  /* background: #ffffff; */
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  right: 0;
+    &.sticky {
+      background: #fff;
+      border-bottom: 2px solid #ddd;
+      padding: 20px 0;
+      a{
+        color: $black_color !important;
+      }
+    }
+  }
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .logo {
+        flex-basis: 25%;
+        a{
+            font-size: 30px;
+            font-weight: 600;
+            color: $white_color;
+        }
+      }
+      .menu {
+        flex-basis: 70%;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+          }
+          li{
+            a{
+                margin-left: 30px;
+                font-size: 18px;
+                text-transform: capitalize;
+                font-weight: 400;
+                color: $white_color;
+                &:hover{
+                    color: $hover_color;
+                }
+            }
+          }
+      }
+
+  }
+  

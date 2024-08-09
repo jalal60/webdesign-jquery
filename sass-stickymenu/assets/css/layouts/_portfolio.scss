@@ -1,0 +1,28 @@
+/*-----------Portfolio CSS-------------*/
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .single-portfolio {
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px 0;
+    position: relative;
+    h4{
+        position: absolute;
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align: center;
+        color: $white_color;
+        width: 100%;
+        background-color: $black_color;
+        padding: 20px;
+        bottom: 0;
+    }
+  }
+}

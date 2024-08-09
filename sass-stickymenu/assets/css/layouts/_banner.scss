@@ -1,0 +1,19 @@
+/*------Banner CSS------------*/
+
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+    h2 {
+        font-size: 40px;
+        text-transform: capitalize;
+      }
+      p {
+        /*! margin: 20px 0; */
+        max-width: 500px;
+        margin: 20px auto;
+      }
+      a{
+        margin: 0 10px;
+      }
+  }
